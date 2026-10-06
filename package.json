@@ -1,0 +1,23 @@
+{
+  "name": "@categori/browser-recovery",
+  "version": "0.1.0-alpha.1",
+  "description": "Scoped, bounded browser recovery storage mechanics with explicit failure outcomes.",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "Apache-2.0"
+}
